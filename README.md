@@ -1,7 +1,7 @@
 # Filex
 
 <p align="center">
-  <img src=https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_10-30-58-998.jpg" width="30%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_10-30-58-998.jpg" width="30%">
   <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-16-49-779.png" width="30%">
   <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-19-03-471.png" width="30%">
 </p>
