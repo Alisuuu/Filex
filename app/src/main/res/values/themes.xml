@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Filex" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F35360</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#4DFF5260</item>
+        <item name="colorOnPrimaryContainer">#FFDADD</item>
+        
+        <item name="colorSecondary">#4682B4</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#2D465A</item>
+        <item name="colorOnSecondaryContainer">#D1E4FF</item>
+        
+        <!-- UI Controls Colors (Steel Blue) -->
+        <item name="colorControlActivated">#4682B4</item>
+        <item name="colorAccent">#4682B4</item>
+        
+        <item name="colorSurface">#000000</item>
+        <item name="colorSurfaceVariant">#1A1A1A</item>
+        <item name="colorSurfaceContainer">#0D0D0D</item>
+        <item name="colorSurfaceContainerHigh">#262626</item>
+        
+        <item name="colorOnSurface">#F0F0F0</item>
+        <item name="colorOnSurfaceVariant">#C0C0C0</item>
+        <item name="colorOutline">#333333</item>
+        <item name="colorOutlineVariant">#4DFFFFFF</item>
+        
+        <!-- Prism specific -->
+        <item name="folderColor">#FFCA28</item>
+        <item name="folderColorDark">#FFA000</item>
+        <item name="folderColorAccent">#FFE082</item>
+        
+        <item name="shapeAppearanceLargeComponent">@style/PrismShapeLarge</item>
+        <item name="shapeAppearanceMediumComponent">@style/PrismShapeMedium</item>
+        
+        <item name="alertDialogTheme">@style/PrismAlertDialogTheme</item>
+        <item name="materialAlertDialogTheme">@style/PrismAlertDialogTheme</item>
+    </style>
+
+    <style name="PrismAlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">#E0E0E0</item>
+        <item name="colorSurface">#E6080808</item>
+        <item name="shapeAppearanceLargeComponent">@style/PrismShapeLarge</item>
+    </style>
+
+    <style name="PrismShapeLarge" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+    <style name="PrismShapeMedium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Theme.Filex" parent="Base.Theme.Filex" />
+
+    <style name="TransparentBottomSheetDialog" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/TransparentBottomSheetStyle</item>
+    </style>
+
+    <style name="TransparentBottomSheetStyle" parent="Widget.Material3.BottomSheet">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="shapeAppearance">@null</item>
+    </style>
+</resources>

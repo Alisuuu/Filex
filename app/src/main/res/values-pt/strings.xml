@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Filex</string>
+    
+    <!-- Dashboard -->
+    <string name="recent_files">Arquivos recentes</string>
+    <string name="storage">Armazenamento</string>
+    <string name="internal_storage">Interno</string>
+    <string name="pinned_folders">Pastas fixadas</string>
+    <string name="home">Início</string>
+    <string name="dashboard">Painel</string>
+    
+    <!-- Actions -->
+    <string name="action_new_tab">Nova aba</string>
+    <string name="action_copy_path">Copiar caminho</string>
+    <string name="action_details">Detalhes</string>
+    <string name="action_rename">Renomear</string>
+    <string name="action_open_as_text">Abrir como texto</string>
+    <string name="action_view_archive">Ver arquivo</string>
+    <string name="action_copy">Copiar</string>
+    <string name="action_cut">Mover</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_compress">Compactar</string>
+    <string name="action_pin">Fixar</string>
+    <string name="action_extract">Extrair</string>
+    <string name="action_share">Partilhar</string>
+    <string name="action_select_all">Selecionar tudo</string>
+    <string name="action_clear_selection">Limpar seleção</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_clear_trash">Limpar lixeira</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">OK</string>
+    
+    <!-- Task Messages -->
+    <string name="task_reading_folder">Lendo pasta...</string>
+    <string name="task_copying">Copiando arquivos</string>
+    <string name="task_moving">Movendo arquivos</string>
+    <string name="task_deleting">Excluindo</string>
+    <string name="task_extracting">Extraindo arquivo</string>
+    <string name="task_compressing">Compactando arquivos</string>
+    <string name="task_renaming">Renomeando</string>
+    <string name="task_cleaning_trash">Limpando lixeira</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_delete_title_trash">Mover para Lixeira</string>
+    <string name="dialog_delete_title_perm">Excluir permanentemente</string>
+    <string name="dialog_delete_message">Deseja %1$s %2$d itens?</string>
+    <string name="dialog_delete_move">mover</string>
+    <string name="dialog_delete_delete">excluir</string>
+    <string name="dialog_exit_title">Sair do Filex</string>
+    <string name="dialog_exit_message">Deseja sair?</string>
+    <string name="dialog_extract_to">%1$s_extraido</string>
+    <string name="dialog_compress_title">Compactar</string>
+    <string name="dialog_compress_name_hint">Nome</string>
+    <string name="dialog_compress_format">Formato:</string>
+    <string name="dialog_compress_rar_warning">* O formato RAR é proprietário. Use 7Z para melhor compressão.</string>
+    
+    <!-- Notifications & Toasts -->
+    <string name="toast_path_copied">Caminho copiado</string>
+    <string name="toast_clipboard_cleared">Área de transferência limpa</string>
+    <string name="toast_cut">Cortado</string>
+    <string name="toast_copied">Copiado</string>
+    <string name="toast_search_error">Erro na busca</string>
+    <string name="toast_cannot_remove_system_shortcut">Não é possível remover atalhos do sistema</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_access_mode">Modo de Acesso</string>
+    <string name="settings_mode_default">Padrão</string>
+    <string name="settings_mode_root">Root</string>
+    <string name="settings_mode_shizuku">Shizuku</string>
+    <string name="settings_use_trash">Usar lixeira</string>
+    <string name="settings_retention">Manter arquivos por: %1$d dia(s)</string>
+    <string name="settings_experimental_title">Aviso: Modo Experimental</string>
+    <string name="settings_experimental_message">O suporte a Root está em fase inicial de desenvolvimento. Use com cautela, pois operações em arquivos do sistema podem causar instabilidade ou perda de dados.</string>
+    
+    <!-- About -->
+    <string name="about_developer">Desenvolvedor</string>
+    <string name="about_dev_subtitle">Alisu (GitHub)</string>
+    <string name="about_github_profile">GitHub Profile</string>
+    <string name="about_app_info">Sobre o Filex</string>
+    <string name="about_version">Versao: 1.0.0 Stable</string>
+    <string name="about_description">Um projeto focado em performance e design minimalista.</string>
+    <string name="about_made_with">Made with ❤️ in Brazil</string>
+    
+    <!-- File Types -->
+    <string name="type_folder">Pasta</string>
+    <string name="trash">Lixeira</string>
+    <string name="type_file">Arquivo</string>
+    
+    <!-- Selection -->
+    <string name="selected_count">%1$d selecionado(s)</string>
+    <!-- Editor -->
+    <string name="editor_readonly">Somente Leitura</string>
+    <string name="editor_no_save_archive">Não é possível salvar em compactados</string>
+    <string name="editor_load_error">Erro ao carregar</string>
+    <string name="editor_save_success">Salvo!</string>
+    <string name="editor_save_error">Erro ao salvar</string>
+    <!-- Tab Options -->
+    <string name="tab_options">Opções da Aba</string>
+    <string name="tab_close">Fechar aba</string>
+    <string name="tab_close_others">Fechar outras</string>
+    <string name="tab_close_all">Fechar todas</string>
+    
+    <!-- Create -->
+    <string name="create_new">Criar %1$s</string>
+    <string name="create_folder">Pasta</string>
+    <string name="create_file">Arquivo</string>
+    
+    <!-- Search -->
+    <string name="search_searching">Buscando: %1$s</string>
+    <string name="search_results">Resultados: %1$d</string>
+    
+    <!-- Details Dialog -->
+    <string name="details_calculating">Calculando detalhes...</string>
+    <string name="details_wait">Por favor, aguarde...</string>
+    <string name="details_name">Nome: %1$s</string>
+    <string name="details_path">Caminho: %1$s</string>
+    <string name="details_size">Tamanho: %1$s (%2$d bytes)</string>
+    <string name="details_content">Conteúdo: %1$d itens</string>
+    <string name="details_type">Tipo: %1$s</string>
+    <string name="details_last_modified">Última modificação: %1$s</string>
+    
+    <!-- Pin -->
+    <string name="pin_title">Desfixar pasta</string>
+    <string name="pin_message">Deseja remover \"%1$s\" das pastas fixadas?</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_search"
+        android:title="Buscar"
+        android:icon="@drawable/l_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Configurações"
+        android:icon="@drawable/l_settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_clear_trash"
+        android:title="Limpar Lixeira"
+        android:icon="@drawable/l_delete"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_select_all"
+        android:title="Selecionar Tudo"
+        android:icon="@drawable/l_check_all"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_clear_selection"
+        android:title="Limpar"
+        android:icon="@drawable/l_check_clear"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF8A8A</color>
+    <color name="purple_500">#F35360</color>
+    <color name="purple_700">#D32F2F</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="ab_background_material_light">#FFFFFF</color>
+    <color name="ab_background_material_dark">#333333</color>
+    <color name="ui_base">#F35360</color>
+
+    <!-- Material 3 Surface Colors for Prism style -->
+    <color name="colorSurfaceContainerHigh">#FFF5F5</color>
+    <color name="colorSurfaceContainerHighest">#FFEEEE</color>
+    <color name="colorError">#B3261E</color>
+    <color name="colorTertiaryContainer">#F35360</color>
+    <color name="colorOnTertiaryContainer">#FFFFFF</color>
+</resources>

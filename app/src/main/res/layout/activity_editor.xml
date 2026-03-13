@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/editorToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1A1A1A"
+        app:titleTextColor="#FFFFFF"
+        app:subtitleTextColor="#888888"
+        app:navigationIcon="@drawable/l_close"
+        app:navigationIconTint="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/editorProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="#F35360"
+        app:layout_constraintTop_toBottomOf="@id/editorToolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/editorToolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Line Numbers: Scrolls in sync with EditText -->
+        <TextView
+            android:id="@+id/lineNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#151515"
+            android:fontFamily="monospace"
+            android:gravity="end"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="16dp"
+            android:text="1"
+            android:textColor="#404040"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:includeFontPadding="false"
+            android:scrollbars="none" />
+
+        <!-- The Editor: Handles its own scroll -->
+        <EditText
+            android:id="@+id/editContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="monospace"
+            android:gravity="top"
+            android:hint="Escreva seu código..."
+            android:inputType="textMultiLine|textNoSuggestions|textVisiblePassword"
+            android:padding="16dp"
+            android:textColor="#D4D4D4"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp"
+            android:includeFontPadding="false"
+            android:scrollbars="vertical|horizontal"
+            android:scrollHorizontally="true"
+            android:scrollbarStyle="outsideOverlay"
+            android:textCursorDrawable="@null" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

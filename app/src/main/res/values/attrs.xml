@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="folderColor" format="color" />
+    <attr name="folderColorDark" format="color" />
+    <attr name="folderColorAccent" format="color" />
+    <attr name="inlineButtonRippleColor" format="color" />
+</resources>
