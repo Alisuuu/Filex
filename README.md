@@ -70,8 +70,8 @@
 
 ---
 
-## 🐞 Reportar Bugs
+##  Reportar Bugs
 
 Encontrou algum problema ou tem sugestões?
 
-📧 **Email:**
+📧 **Email:alisucodm@gmail.com**
