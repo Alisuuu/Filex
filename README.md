@@ -1,31 +1,77 @@
 # Filex
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-15-26-380.png" width="32%">
-  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-16-49-779.png" width="32%">
-  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-19-03-471.png" width="32%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-15-26-380.png" width="30%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-16-49-779.png" width="30%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-19-03-471.png" width="30%">
 </p>
-Gerenciador de arquivos moderno, rapido e eficiente para Android. O Filex oferece uma experiencia fluida com suporte avancado para arquivos do sistema e arquivos compactados.
 
-## Funcionalidades
+<p align="center">
+  <b>Gerenciador de arquivos moderno, rápido e eficiente para Android</b>
+  <br>
+  Experiência fluida com suporte avançado para arquivos do sistema e arquivos compactados.
+</p>
 
-- Gerenciamento completo de arquivos: copiar, mover, excluir, renomear e compartilhar.
-- Suporte para multiplas abas: navegue em diferentes diretorios simultaneamente.
-- Visualizacao de arquivos compactados: suporte para ZIP, 7Z, TAR e RAR (incluindo subpastas).
-- Extração e compactação: suporte para diversos formatos com alta performance.
-- Modo de acesso flexivel: suporte para modo Padrao, Root e Shizuku.
-- Lixeira integrada: recupere arquivos excluidos acidentalmente com tempo de retencao configuravel.
-- Busca instantanea: encontre arquivos rapidamente em qualquer diretorio.
-- Pre-visualizacao de midia: visualizador de imagens, videos, audio e PDF integrado.
-- Editor de texto: editor de codigo e texto com realce de sintaxe simples.
-- Atalhos inteligentes: acesso rapido para pastas principais e armazenamentos externos.
+---
 
-## Diferenciais
+## 🚀 Funcionalidades
 
-- Interface moderna: design focado em usabilidade com tema escuro nativo.
-- Alta performance: operacoes de arquivos otimizadas e baixo consumo de recursos.
-- Estabilidade em operacoes em lote: processamento robusto para grandes volumes de arquivos.
-- Transparencia em arquivos compactados: navegue dentro de arquivos ZIP e outros formatos como se fossem pastas comuns.
-- Seguranca em Root/Shizuku: operacoes de sistema tratadas com verificacoes de seguranca para evitar corrupcao de dados.
-- Feedback em tempo real: barra de progresso detalhada e notificacoes para todas as tarefas em segundo plano.
+- 📂 **Gerenciamento completo de arquivos**  
+  Copiar, mover, excluir, renomear e compartilhar arquivos facilmente.
 
-reportar bug: alisucodm@gmail.com
+- 🗂 **Múltiplas abas**  
+  Navegue em diferentes diretórios simultaneamente.
+
+- 📦 **Suporte a arquivos compactados**  
+  Compatível com **ZIP, 7Z, TAR e RAR**, incluindo navegação em subpastas.
+
+- ⚡ **Extração e compactação rápidas**  
+  Processamento otimizado para múltiplos formatos.
+
+- 🔐 **Modos de acesso flexíveis**  
+  Suporte para **Modo Padrão, Root e Shizuku**.
+
+- 🗑 **Lixeira integrada**  
+  Recupere arquivos excluídos acidentalmente com tempo de retenção configurável.
+
+- 🔎 **Busca instantânea**  
+  Encontre arquivos rapidamente em qualquer diretório.
+
+- 🎬 **Pré-visualização de mídia**  
+  Visualizador integrado para **imagens, vídeos, áudio e PDF**.
+
+- 📝 **Editor de texto**  
+  Editor simples para **código e texto com realce de sintaxe**.
+
+- ⭐ **Atalhos inteligentes**  
+  Acesso rápido para **pastas principais e armazenamentos externos**.
+
+---
+
+## ⭐ Diferenciais
+
+- 🎨 **Interface moderna**  
+  Design focado em usabilidade com **tema escuro nativo**.
+
+- ⚡ **Alta performance**  
+  Operações de arquivos otimizadas e **baixo consumo de recursos**.
+
+- 📊 **Operações em lote estáveis**  
+  Processamento robusto para grandes volumes de arquivos.
+
+- 📁 **Navegação transparente em arquivos compactados**  
+  Abra arquivos **ZIP e outros formatos como se fossem pastas**.
+
+- 🔒 **Segurança em Root / Shizuku**  
+  Operações do sistema com verificações para evitar corrupção de dados.
+
+- 🔔 **Feedback em tempo real**  
+  Barra de progresso detalhada e notificações para tarefas em segundo plano.
+
+---
+
+## 🐞 Reportar Bugs
+
+Encontrou algum problema ou tem sugestões?
+
+📧 **Email:**
