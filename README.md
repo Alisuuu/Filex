@@ -1,6 +1,9 @@
 # Filex
-
-![Screenshot](https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-15-26-380.png)  ![Screenshot](https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-19-03-471.png)  ![Screenshot](https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-16-49-779.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-15-26-380.png" width="32%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-16-49-779.png" width="32%">
+  <img src="https://raw.githubusercontent.com/Alisuuu/Filex/refs/heads/master/screenshots/Picsart_26-03-13_05-19-03-471.png" width="32%">
+</p>
 Gerenciador de arquivos moderno, rapido e eficiente para Android. O Filex oferece uma experiencia fluida com suporte avancado para arquivos do sistema e arquivos compactados.
 
 ## Funcionalidades
