@@ -24,7 +24,3 @@ Gerenciador de arquivos moderno, rapido e eficiente para Android. O Filex oferec
 - Seguranca em Root/Shizuku: operacoes de sistema tratadas com verificacoes de seguranca para evitar corrupcao de dados.
 - Feedback em tempo real: barra de progresso detalhada e notificacoes para todas as tarefas em segundo plano.
 
-## Desenvolvedor
-
-Desenvolvido por Alisu.
-Visite o perfil no GitHub: [https://github.com/Alisuuu](https://github.com/Alisuuu)
